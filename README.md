@@ -63,3 +63,6 @@ There are 25 variables:
 • PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
 
 • default.payment.next.month: Default payment (1=yes, 0=no)
+
+# Conclusion
+Logistic Regression model has the highest recall but the lowest precision, if the business cares recall the most, then this model is the best candidate. If the balance of recall and precision is the most important metric, then Random Forest is the ideal model. Since Random Forest has slightly lower recall but much higher precision than Logistic Regression, I would recommend Random Forest.
