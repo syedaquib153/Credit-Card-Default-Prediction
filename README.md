@@ -11,7 +11,7 @@ We are all aware what is credit card. It is type of payment payment card in whic
 
 Credit card default happens when you have become severely delinquent on your credit card payments.Missing credit card payments once or twice does not count as a default. A payment default occurs when you fail to pay the Minimum Amount Due on the credit card for a few consecutive months.
 
-#  Description of columns from dataset documentation**
+#  Description of columns from dataset documentation
 
 There are 25 variables:
 • ID: ID of each client
