@@ -71,6 +71,12 @@ There are 25 variables:
 
 <h2> :clipboard: Execution Instruction</h2>
 
+1)train.py
+Then, the train.py file must be executed, which leads to the production of the model.txt file. At the beginning of this file, the dataset for training has been imported so that the functions defined in it can be used.
+
+2)test.py
+Finally, the test.py file must be executed to create the result.txt and evaluation.txt files. Just like the train.py file, at the beginning of this file, the dataset for test has been imported so that the functions defined in it can be used.
+
 
 # Conclusion
 Logistic Regression model has the highest recall but the lowest precision, if the business cares recall the most, then this model is the best candidate. If the balance of recall and precision is the most important metric, then Random Forest is the ideal model. Since Random Forest has slightly lower recall but much higher precision than Logistic Regression, I would recommend Random Forest.
