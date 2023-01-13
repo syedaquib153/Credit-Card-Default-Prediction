@@ -77,6 +77,14 @@ Then, the train.py file must be executed, which leads to the production of the m
 2)test.py
 Finally, the test.py file must be executed to create the result.txt and evaluation.txt files. Just like the train.py file, at the beginning of this file, the dataset for test has been imported so that the functions defined in it can be used.
 
+# Random Forest
+As the name suggests, random forest is nothing but a collection of multiple decision tree models. Random forest is a supervised Machine Learning algorithm. This algorithm creates a set of decision trees from a few randomly selected subsets of the training set and picks predictions from each tree. Then by means of voting, the random forest algorithm selects the best solution.
+
 
 # Conclusion
 Logistic Regression model has the highest recall but the lowest precision, if the business cares recall the most, then this model is the best candidate. If the balance of recall and precision is the most important metric, then Random Forest is the ideal model. Since Random Forest has slightly lower recall but much higher precision than Logistic Regression, I would recommend Random Forest.
+
+# Reference
+Reference Link:- https://intellipaat.com/blog/what-is-random-forest-algorithm-in-python/
+
+AlmaBetter Mentor 
